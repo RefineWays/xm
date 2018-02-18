@@ -1,0 +1,43 @@
+没看CSS重构的电子书之前，自己摸索的CSS模块化代码。只有三个文件 index.html    index.css    common.css
+
+/* layout start */
+.fullwide{width: 1519px; position: relative;}
+section{width: 1226px; margin-left: auto; margin-right: auto; position: relative;}
+.side{width: 234px;}
+.right{width: 977px; margin-left: 15px;}
+.space-between{display:flex; justify-content: space-between;}
+/* layout end */
+
+/* base start */
+.fl{float: left;}
+.fr{float: right;}
+.clear{zoom:1;}
+.clear:after{content:''; display: block; clear: both;}
+ul, li, h2, h3, h4, p{margin: 0; padding: 0; display: inline-block;}
+/* img{margin: 0; padding: 0;} */
+li{list-style: none; float: left;}
+body{font-family: "sHelvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;}
+.title{font-size:22px; font-weight: 200; line-height: 58px; color:#333; display: inline-block; margin-top: 25px;}
+.bgfa{background: #fafafa;}
+.bgwhite{background: white;}
+.mb15{margin-bottom: 15px;}
+/* base end */ 
+
+/* function start */
+.tab-arrow{width:70px; height: 20px; border: 1px solid blue;position: absolute; right: 0; top: 30px;} 
+.tab-ul{position: relative; right: 0; top:55px;}
+.tab-li{margin-left: 35px;}
+/* function end */
+
+/* Product*/
+.product{width:234px; height: 300px; position: relative; }
+.product-pic{width: 150px; height: 150px; margin-top: 39px; margin-left: 42px;}
+.product-b{width:234px; display: flex; flex-direction: column; align-items: center;}
+.product-title{font-size: 14px; font-weight: 400; margin-bottom: 6px;}
+.product-des{color: #b0b0b0; font-size: 12px; margin-bottom: 25px;}
+.product-price{color: #ff6709; font-size: 14px;}
+
+.product-last{width: 234px; height: 143px; position: relative;}
+.p-last-left{position: absolute; top:40px; left: 30px;}
+.product-last img{position: absolute; right: 15px; top: 30px;}
+/* product end*/

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>仿小米</title>
+    <link href="https://cdn.bootcss.com/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- <img src="mipic/topad.png" alt=""> -->
+    没看CSS重构的电子书之前，自己摸索的CSS模块化代码。只有三个文件 index.html    index.css    common.css
+    
+    <header class="fullwide">
+        <section class="nav">
+            <ul>
+                <li>小米商城<span>|</span></li>
+                <li>MIUI<span>|</span></li>
+                <li>loT<span>|</span></li>
+                <li>云服务<span>|</span></li>
+                <li>水滴<span>|</span></li>
+                <li>金融<span>|</span></li>
+                <li>有品<span>|</span></li>
+                <li>Select Region</li>
+            </ul>
+            <div class="cart fr">购物车</div>
+            <ul class="fr">
+                <li>登录<span>|</span></li>
+                <li>注册<span>|</span></li>
+                <li>消息通知</li>
+            </ul>
+        </section>
+    </header>
+
+    <section class="search">
+        <img src="mipic/milogo.png" alt="" class="logo">
+        <img src="mipic/nh.png" alt="" class="nh">
+        <ul>
+            <li>小米手机</li>
+            <li>红米</li>
+            <li>电视</li>
+            <li>笔记本</li>
+            <li>盒子</li>
+            <li>新品</li>
+            <li>路由器</li>
+            <li>智能硬件</li>
+            <li>服务</li>
+            <li>社区</li>
+        </ul>
+        <input type="text" value="红米5 Plus">
+    </section>
+
+    <section class="flash-main">
+        <div class="sidebar side fl"></div>
+        <div class="flpic fl">
+            <img src="mipic/flash1.png" alt="">
+            <img src="mipic/flash2.png" alt="">
+            <img src="mipic/flash3.png" alt="">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="fourad clear">
+        <div class="fl side"></div>
+        <div class="fr">
+            <img src="mipic/31.jpg" alt="">
+            <img src="mipic/32.jpg" alt="">
+            <img src="mipic/33.jpg" alt="">
+        </div>
+    </section>
+
+    <section>
+        <h2 class="title">小米明星单品</h2>
+        <div class="tab-arrow"></div>
+        <div class="dp space-between">
+            <div class="product bgfa">
+                <img src="mipic/dp2.jpg" alt="" class="product-pic">
+                <div class="product-b">
+                    <h4 class="product-title">小米手环2</h4>
+                    <p class="product-des">OLED显示屏幕，升级计步算法</p>
+                    <p class="product-price">149元</p>
+                </div>
+            </div>
+            <div class="product bgfa">
+                <img src="mipic/dp7.jpg" alt="" class="product-pic">
+                <div class="product-b">
+                    <h4 class="product-title">小米手环2</h4>
+                    <p class="product-des">OLED显示屏幕，升级计步算法</p>
+                    <p class="product-price">149元</p>
+                </div>
+            </div>
+            <div class="product bgfa">
+                <img src="mipic/dp4.jpg" alt="" class="product-pic">
+                <div class="product-b">
+                    <h4 class="product-title">小米MIX 2</h4>
+                    <p class="product-des">全面屏 5.99大屏</p>
+                    <p class="product-price">3299元</p>
+                </div>
+            </div>
+            <div class="product bgfa">
+                <img src="mipic/dp5.jpg" alt="" class="product-pic">
+                <div class="product-b">
+                    <h4 class="product-title">小米净水器</h4>
+                    <p class="product-des">直接出净水，隐藏式安装</p>
+                    <p class="product-price">1999元</p>
+                </div>
+            </div>
+            <div class="product bgfa">
+                <img src="mipic/dp3.jpg" alt="" class="product-pic">
+                <div class="product-b">
+                    <h4 class="product-title">红米5A</h4>
+                    <p class="product-des">8天超长待机 轻巧机身</p>
+                    <p class="product-price">899元</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="fullwide bgfa">
+        <section class="jd">
+            <p class="title">家电</p>
+            <ul class="fr tab-ul">
+                <li class="tab-li">热门</li>
+                <li class="tab-li">电视影音</li>
+                <li class="tab-li">电脑</li>
+                <li class="tab-li">家居</li>
+            </ul>
+            <div>
+                <img src="mipic/jdleft.jpg" class="side fl">
+                <ul class="right fl space-between mb15">
+                    <li class="product bgwhite">
+                        <img src="mipic/81.jpg" alt="" class="product-pic">
+                        <div class="product-b">
+                            <h4 class="product-title">小米电视4A</h4>
+                            <p class="product-des">OLED显示屏幕，升级计步    </p>
+                            <p class="product-price">149元</p>
+                        </div>
+                    </li>
+                    <li class="product bgwhite">
+                        <img src="mipic/82.png" alt="" class="product-pic">
+                        <div class="product-b">
+                            <h4 class="product-title">小米电视 49英寸 标准版</h4>
+                            <p class="product-des">OLED显示屏幕，升级计步    </p>
+                            <p class="product-price">2399元</p>
+                        </div>
+                    </li>
+                    <li class="product bgwhite">
+                        <img src="mipic/83.png" alt="" class="product-pic">
+                        <div class="product-b">
+                            <h4 class="product-title">13.3小米笔记本</h4>
+                            <p class="product-des">OLED显示屏幕，升级计步    </p>
+                            <p class="product-price">5199元</p>
+                        </div>
+                    </li>
+                    <li class="product bgwhite">
+                        <img src="mipic/84.png" alt="" class="product-pic">
+                        <div class="product-b">
+                            <h4 class="product-title">15.6小米笔记本</h4>
+                            <p class="product-des">OLED显示屏幕，升级计步    </p>
+                            <p class="product-price">6999元</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="right fl space-between">
+                    <li class="product bgwhite">
+                        <img src="mipic/85.jpg" alt="" class="product-pic">
+                        <div class="product-b">
+                            <h4 class="product-title">小米净水器（厨下式）</h4>
+                            <p class="product-des">OLED显示屏幕，升级计步    </p>
+                            <p class="product-price">1999元</p>
+                        </div>
+                    </li>
+                    <li class="product bgwhite">
+                        <img src="mipic/86.jpg" alt="" class="product-pic">
+                        <div class="product-b">
+                            <h4 class="product-title">小米电水壶</h4>
+                            <p class="product-des">每天八杯水</p>
+                            <p class="product-price">99元</p>
+                        </div>
+                    </li>
+                    <li class="product bgwhite">
+                        <img src="mipic/87.jpg" alt="" class="product-pic">
+                        <div class="product-b">
+                            <h4 class="product-title">小米空气净化器</h4>
+                            <p class="product-des">OLED显示屏幕，升级计步    </p>
+                            <p class="product-price">899元</p>
+                        </div>
+                    </li>
+                    <li class="product">
+                        <div class="product-last mb15 bgwhite">
+                            <div class="p-last-left">
+                                <p class="product-title">小白摄像机</p><br/>
+                                <p class="product-price">399元</p>
+                            </div>
+                                <img src="mipic/80-1.jpg" alt="">
+                        </div>
+                        <div class="product-last bgwhite">
+                            <div class="p-last-left">
+                                <p class="product-title">浏览更多</p><br/>
+                                <p class="product-des">热门</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="zn">
+                        <p class="title">智能</p>
+                        <ul class="fr tab-ul">
+                            <li class="tab-li">热门</li>
+                            <li class="tab-li">出行</li>
+                            <li class="tab-li">健康</li>
+                            <li class="tab-li">酷玩</li>
+                            <li class="tab-li">路由器</li>
+                        </ul>
+                            <ul class="space-between mb15">
+                                <li class="product bgwhite">
+                                    <img src="mipic/zn15.jpg" alt="">
+                                </li>
+                                <li class="product bgwhite">
+                                    <img src="mipic/82.png" alt="" class="product-pic">
+                                    <div class="product-b">
+                                        <h4 class="product-title">小米电视 49英寸 标准版</h4>
+                                        <p class="product-des">OLED显示屏幕，升级计步    </p>
+                                        <p class="product-price">2399元</p>
+                                    </div>
+                                </li>
+                                <li class="product bgwhite">
+                                    <img src="mipic/83.png" alt="" class="product-pic">
+                                    <div class="product-b">
+                                        <h4 class="product-title">13.3小米笔记本</h4>
+                                        <p class="product-des">OLED显示屏幕，升级计步    </p>
+                                        <p class="product-price">5199元</p>
+                                    </div>
+                                </li>
+                                <li class="product bgwhite">
+                                    <img src="mipic/84.png" alt="" class="product-pic">
+                                    <div class="product-b">
+                                        <h4 class="product-title">15.6小米笔记本</h4>
+                                        <p class="product-des">OLED显示屏幕，升级计步    </p>
+                                        <p class="product-price">6999元</p>
+                                    </div>
+                                </li>
+                                <li class="product bgwhite">
+                                    <img src="mipic/84.png" alt="" class="product-pic">
+                                    <div class="product-b">
+                                        <h4 class="product-title">15.6小米笔记本</h4>
+                                        <p class="product-des">OLED显示屏幕，升级计步    </p>
+                                        <p class="product-price">6999元</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="space-between">
+                                <li class="product bgwhite">
+                                    <img src="mipic/zn10.jpg" alt="">
+                                </li>
+                                <li class="product bgwhite">
+                                    <img src="mipic/85.jpg" alt="" class="product-pic">
+                                    <div class="product-b">
+                                        <h4 class="product-title">小米净水器（厨下式）</h4>
+                                        <p class="product-des">OLED显示屏幕，升级计步    </p>
+                                        <p class="product-price">1999元</p>
+                                    </div>
+                                </li>
+                                <li class="product bgwhite">
+                                    <img src="mipic/86.jpg" alt="" class="product-pic">
+                                    <div class="product-b">
+                                        <h4 class="product-title">小米电水壶</h4>
+                                        <p class="product-des">每天八杯水</p>
+                                        <p class="product-price">99元</p>
+                                    </div>
+                                </li>
+                                <li class="product bgwhite">
+                                    <img src="mipic/87.jpg" alt="" class="product-pic">
+                                    <div class="product-b">
+                                        <h4 class="product-title">小米空气净化器</h4>
+                                        <p class="product-des">OLED显示屏幕，升级计步    </p>
+                                        <p class="product-price">899元</p>
+                                    </div>
+                                </li>
+                                <li class="product">
+                                    <div class="product-last mb15 bgwhite">
+                                        <div class="p-last-left">
+                                            <p class="product-title">小白摄像机</p><br/>
+                                            <p class="product-price">399元</p>
+                                        </div>
+                                            <img src="mipic/80-1.jpg" alt="">
+                                    </div>
+                                    <div class="product-last bgwhite">
+                                        <div class="p-last-left">
+                                            <p class="product-title">浏览更多</p><br/>
+                                            <p class="product-des">热门</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+        </section>
+
+        <section>
+                        <p class="title">搭配</p>
+                        <ul class="fr tab-ul">
+                            <li class="tab-li">热门</li>
+                            <li class="tab-li">出行</li>
+                            <li class="tab-li">健康</li>
+                            <li class="tab-li">酷玩</li>
+                            <li class="tab-li">路由器</li>
+                        </ul>
+                            <ul class="space-between mb15">
+                                <li class="product bgwhite">
+                                    <img src="mipic/zn15.jpg" alt="">
+                                </li>
+                                <li class="product bgwhite">
+                                    <img src="mipic/82.png" alt="" class="product-pic">
+                                    <div class="product-b">
+                                        <h4 class="product-title">小米电视 49英寸 标准版</h4>
+                                        <p class="product-des">OLED显示屏幕，升级计步    </p>
+                                        <p class="product-price">2399元</p>
+                                    </div>
+                                </li>
+                                <li class="product bgwhite">
+                                    <img src="mipic/83.png" alt="" class="product-pic">
+                                    <div class="product-b">
+                                        <h4 class="product-title">13.3小米笔记本</h4>
+                                        <p class="product-des">OLED显示屏幕，升级计步    </p>
+                                        <p class="product-price">5199元</p>
+                                    </div>
+                                </li>
+                                <li class="product bgwhite">
+                                    <img src="mipic/84.png" alt="" class="product-pic">
+                                    <div class="product-b">
+                                        <h4 class="product-title">15.6小米笔记本</h4>
+                                        <p class="product-des">OLED显示屏幕，升级计步    </p>
+                                        <p class="product-price">6999元</p>
+                                    </div>
+                                </li>
+                                <li class="product bgwhite">
+                                    <img src="mipic/84.png" alt="" class="product-pic">
+                                    <div class="product-b">
+                                        <h4 class="product-title">15.6小米笔记本</h4>
+                                        <p class="product-des">OLED显示屏幕，升级计步    </p>
+                                        <p class="product-price">6999元</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="space-between">
+                                <li class="product bgwhite">
+                                    <img src="mipic/zn10.jpg" alt="">
+                                </li>
+                                <li class="product bgwhite">
+                                    <img src="mipic/85.jpg" alt="" class="product-pic">
+                                    <div class="product-b">
+                                        <h4 class="product-title">小米净水器（厨下式）</h4>
+                                        <p class="product-des">OLED显示屏幕，升级计步    </p>
+                                        <p class="product-price">1999元</p>
+                                    </div>
+                                </li>
+                                <li class="product bgwhite">
+                                    <img src="mipic/86.jpg" alt="" class="product-pic">
+                                    <div class="product-b">
+                                        <h4 class="product-title">小米电水壶</h4>
+                                        <p class="product-des">每天八杯水</p>
+                                        <p class="product-price">99元</p>
+                                    </div>
+                                </li>
+                                <li class="product bgwhite">
+                                    <img src="mipic/87.jpg" alt="" class="product-pic">
+                                    <div class="product-b">
+                                        <h4 class="product-title">小米空气净化器</h4>
+                                        <p class="product-des">OLED显示屏幕，升级计步    </p>
+                                        <p class="product-price">899元</p>
+                                    </div>
+                                </li>
+                                <li class="product">
+                                    <div class="product-last mb15 bgwhite">
+                                        <div class="p-last-left">
+                                            <p class="product-title">小白摄像机</p><br/>
+                                            <p class="product-price">399元</p>
+                                        </div>
+                                            <img src="mipic/80-1.jpg" alt="">
+                                    </div>
+                                    <div class="product-last bgwhite">
+                                        <div class="p-last-left">
+                                            <p class="product-title">浏览更多</p><br/>
+                                            <p class="product-des">热门</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+    </main>
+        
+    <footer></footer>
+
+</body>
+</html>

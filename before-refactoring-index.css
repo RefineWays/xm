@@ -1,0 +1,32 @@
+没看CSS重构的电子书之前，自己摸索的CSS模块化代码。只有三个文件 index.html    index.css    common.css
+
+header{height: 40px; background: #333; color: #b0b0b0; font-size: 12px;}
+.nav{height: 40px;}
+.nav ul{line-height: 40px;}
+.nav span{margin: 0 6px; color: #424242;}
+.nav .cart{width: 120px; height: 40px; background: #424242; text-align: center; line-height: 40px; margin-left: 25px;}
+
+.search{height: 100px;}
+.search .logo{position: absolute; top: 22px;}
+.search .nh{width: 150px; height: 100px; position: absolute; left: 75px;}
+.search ul{position: absolute; left: 245px; line-height: 100px;}
+.search li{margin-right: 20px;}
+.search input{width: 296px; height: 50px; position: absolute; top: 25px; right: 0;}
+
+.flash-main{height: 460px; margin-bottom: 15px;}
+.flash-main .sidebar{outline:blue solid 1px; height: 460px;}
+.flpic{width: 992px;}
+/* .flash img{display: none;} */
+.flash-main ul{width: 36px; position: absolute; right: 35px; bottom: 35px;}
+.flash-main ul li{width: 12px; height: 12px; background: grey; border-radius: 50%;}
+
+.fourad{outline: blue solid 1px; margin-bottom: 25px;}
+.fourad div:nth-child(1){height:170px; outline: red solid 1px;}
+.fourad div:nth-child(2){width: 978px;display: flex; justify-content: space-between;}
+
+.dp .product{height: 340px; margin-bottom: 39px; border-top: 1px solid red;}
+.dp .product-b{ margin-top: 30px;}
+
+.jd .title{margin-top: 70px;}
+.jd .tab-ul{margin-top: 45px;}
+.jd .side{height: 614px;}
